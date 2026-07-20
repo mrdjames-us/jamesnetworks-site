@@ -1,5 +1,7 @@
 name: Actions smoke test
 on:
+  push:
+    branches: [claude/workflow-automation-form-builder-erkd3p]
   workflow_dispatch:
 jobs:
   hello:
